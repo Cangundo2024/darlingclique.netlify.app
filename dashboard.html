@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Dashboard</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div class="container">
+    <h1>Bem-vindo, <span id="username"></span></h1>
+    <p>Saldo: <strong><span id="saldo">0</span> pontos</strong></p>
+    <button onclick="assistirAnuncio()">Assistir Anúncio</button>
+    <button onclick="logout()">Sair</button>
+  </div>
+
+  <script type="module" src="firebase.js"></script>
+  <script type="module" src="dashboard.js"></script>
+</body>
+</html>
